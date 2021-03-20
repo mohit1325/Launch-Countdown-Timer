@@ -1,0 +1,107 @@
+label{
+    font-family: 'Red Hat Text', sans-serif;
+    margin-top:150px;
+    font-weight: 700;
+}
+.letter-spacing{
+    letter-spacing: 5px;
+}
+.label-font{
+    font-size: 14px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg_white{
+    background-color: hsl(0, 0%, 100%);
+}
+.bg_desblue{
+    background-color: hsl(236, 21%, 26%) ;
+}
+.bg_darkblue{
+    background-color: hsl(235, 16%, 14%) ;
+}
+.bg_verydark{
+    background-color: hsl(234, 17%, 12%);
+}
+.color_white{
+    color: hsl(0, 0%, 100%);
+}
+.color_desblue{
+    color: hsl(236, 21%, 26%) ;
+}
+.color_darkblue{
+    color: hsl(235, 16%, 14%) ;
+}
+.color_verydark{
+    color: hsl(234, 17%, 12%);
+}
+.bg-stars{
+    background-image: url('./images/bg-stars.svg'); 
+    height:50%;
+}
+.bg_grayblue{
+    background-color:  hsl(237, 18%, 59%)
+}
+.color_grayblue{
+    color:  hsl(237, 18%, 59%);
+}
+.flex-item--hills{
+    height:50%;
+}
+.container--clock{
+    display: flex;
+    flex-direction: row;
+    margin-top:2em;
+    justify-content: center;
+}
+.flex-item{
+    flex:0 1 100px;
+    margin-left:2em;
+    text-align: center;
+    height:200px;
+}
+.box-shadow--upper{
+    height:60px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: .6em;
+    border-bottom-left-radius: .6em;
+    box-shadow: 3px 11px 11px -2px rgba(0,0,0,0.82);
+    -webkit-box-shadow: 3px 11px 11px -2px rgba(0,0,0,0.82);
+    -moz-box-shadow: 3px 11px 11px -2px rgba(0,0,0,0.82);
+    margin-bottom:-2.87em;
+}
+.box-shadow--lower{
+    height:60px;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    border-top-right-radius: .6em;
+    border-top-left-radius:.6em;
+    box-shadow: 3px 11px 11px -2px rgba(0,0,0,0.82);
+    -webkit-box-shadow: 3px 11px 11px -2px rgba(0,0,0,0.82);
+    -moz-box-shadow: 3px 11px 11px -2px rgba(0,0,0,0.82);
+    margin-top:-2.87em;
+}
+.span{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;  
+}
+.span-font{
+    font-size: 71px;
+}
+.color-red{
+    color:hsl(345, 95%, 68%);
+}
+.label-hint{
+    font-size: 11px;
+    margin-top:2em;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#seconds{
+    height:2px;
+}

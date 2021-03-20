@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Launch countdown timer</title>
+  <script src="./index.js"></script>
+</head>
+
+<body class="bg_darkblue" style="padding:0;margin:0;height:100%;width:100%;">
+  <div class="bg-stars">
+    <div class="flex-container">
+      <label class="label label-font color_white letter-spacing">WE'RE LAUNCHING SOON</label>
+    </div>
+    <div class="container--clock">
+      <div class="flex-item">
+        <div class="box-shadow--upper bg_desblue">
+        </div>
+        <span class="span span-font color-red" id="days"></span>
+        <div class="box-shadow--lower bg_desblue"></div>
+        <span class="color_grayblue letter-spacing-hint label-hint">DAYS</span>
+      </div>
+      <div class="flex-item">
+        <div class="box-shadow--upper bg_desblue">
+        </div>
+        <span class="span span-font color-red" id="hours"></span>
+        <div class="box-shadow--lower bg_desblue"></div>
+        <span class="color_grayblue letter-spacing-hint label-hint">HOURS</span>
+      </div>
+      <div class="flex-item">
+        <div class="box-shadow--upper bg_desblue">
+        </div>
+        <span class="span span-font color-red" id="minutes"></span>
+        <div class="box-shadow--lower bg_desblue"></div>
+        <span class="color_grayblue letter-spacing-hint label-hint">MINUTES</span>
+      </div>
+      <div class="flex-item">
+        <div class="box-shadow--upper bg_desblue">
+        </div>
+        <span class="span span-font color-red" id="seconds"></span>
+        <div class="box-shadow--lower bg_desblue"></div>
+        <span class="color_grayblue letter-spacing-hint label-hint">SECONDS</span>
+      </div>
+    </div>
+  </div>
+  <div class="flex-item--hills">
+    <img src='./images/pattern-hills.svg'>
+  </div>
+</body>
+
+</html>
